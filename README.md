@@ -2,4 +2,4 @@
 
 ## Hosting link:
 
-https://culinaryheaven.netlify.app/
+https://culinaryhighway.netlify.app/
