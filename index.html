@@ -1,0 +1,65 @@
+<!doctype html>
+	<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8">
+		<meta name="desciption" content="Are you a foodie!? This site is for youu!!">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Overlock&family=Rubik:wght@300;400;900&display=swap" rel="stylesheet">
+
+		<title>Culinary Highway</title>
+
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+
+	</head>
+	<body>
+		<section class="header">
+			<nav>
+				<a href="index.html"><img src="imgs/fancy.gif" width="15%" height="10%" ></a>
+				<div class="nav-links" id="navlinks">
+					<i class="fa fa-window-close" onclick="hidemenu()"></i>					
+					<ul>
+						<li><a href="">HOME</a></li>
+						<li><a href="">ABOUT</a></li>
+						<li><a href="">VLOGS</a></li>
+						<li><a href="">RECIPES</a></li>
+						<li><a href="">CONTACT ME</a></li>
+
+					</ul>
+				</div>
+				<i class="fa fa-bars" onclick="showmenu()"></i>
+			</nav>
+
+
+	<div class="text-box">
+		<br><br>
+		<h1>CULINARY   HIGHWAY</h1>
+		<p>Welcome to Culinary Highway.<br> This is your destination if you are crazy for Indian cuisine and culture.</p>
+		<br>
+		<br>
+		<br>
+		<a href="https://github.com/KookieChimchim" class="hero-btn">GITHUB PROFILE</a>
+	</div>
+			
+		</section>
+
+
+	<script>
+		var navlinks = document.getElementById('navlinks')
+
+		function showmenu(){
+			navlink.style.right="0";
+
+		}
+		function hidemenu(){
+			navlinks.style.right="-200px";
+		} 		
+	</script>
+
+
+	</body>
+	</html>
