@@ -2,4 +2,4 @@
 
 ## Hosting link:
 
-https://reverent-brown-c87d0a.netlify.app
+https://culinaryheaven.netlify.app/
